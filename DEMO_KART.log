@@ -1,0 +1,20 @@
+[2024-11-29 16:56:26] [INFO] [CommonFunctions] - Loading the Property Files
+[2024-11-29 16:56:26] [INFO] [CommonFunctions] - Verifying the Browser is NULL or NOT
+[2024-11-29 16:56:26] [INFO] [CommonFunctions] - Launching the Browser
+[2024-11-29 16:56:28] [INFO] [CommonFunctions] - Initialize the Property Files
+[2024-11-29 16:56:28] [INFO] [CommonFunctions] - Launching the Application URL
+[2024-11-29 16:56:33] [INFO] [IndexPage] - Verifying the Title
+[2024-11-29 16:56:33] [INFO] [IndexPage] - Printing the Title
+[2024-11-29 16:56:33] [INFO] [IndexPage] - Validating the Logo
+[2024-11-29 16:56:33] [INFO] [IndexPage] - Searching the Product
+[2024-11-29 16:56:34] [INFO] [IndexPage] - Product is displayed
+[2024-11-29 16:56:34] [INFO] [LoginPageTest] - Verifying able to click the SignIn Button
+[2024-11-29 16:56:35] [INFO] [LoginPageTest] - Successfully Navigated to Login Page
+[2024-11-29 16:56:35] [INFO] [LoginPageTest] - Verifying able to Enter the Login credentials
+[2024-11-29 16:56:37] [INFO] [LoginPageTest] - Successfully Navigated to My Account Page
+[2024-11-29 16:56:37] [INFO] [MyAccountPage] - Verifying the Order and History Page Option
+[2024-11-29 16:56:37] [INFO] [MyAccountPage] - Order and History Page Option is displayed
+[2024-11-29 16:56:37] [INFO] [MyAccountPage] - Verifying the Address Page Option
+[2024-11-29 16:56:37] [INFO] [MyAccountPage] - Address Page Option is displayed
+[2024-11-29 16:56:37] [INFO] [MyAccountPage] - Verifying the Home Page Option
+[2024-11-29 16:56:37] [INFO] [MyAccountPage] - Home Page Option is displayed

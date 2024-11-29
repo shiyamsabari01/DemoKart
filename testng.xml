@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoKart Suite">
+    <test name="Verify Index Page" verbose="2" preserve-order="true" >
+        <classes>
+            <class name="testCases.IndexPageTest"/>
+        </classes>
+    </test>
+    <test name="Verify Login Page" verbose="2" preserve-order="true" >
+        <classes>
+            <class name="testCases.LoginPageTest"/>
+        </classes>
+    </test>
+    <test name="Verify MyAccount Page" verbose="2" preserve-order="true" >
+        <classes>
+            <class name="testCases.MyAccountTest"/>
+        </classes>
+    </test>
+</suite>

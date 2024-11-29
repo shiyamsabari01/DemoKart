@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-29T16:56:33 IST" name="DemoKart Suite" finished-at="2024-11-29T16:56:37 IST" duration-ms="3799">
+    <groups>
+    </groups>
+    <test started-at="2024-11-29T16:56:33 IST" name="Verify Index Page" finished-at="2024-11-29T16:56:34 IST" duration-ms="1094">
+      <class name="testCases.IndexPageTest">
+        <test-method signature="verifyLogo()[pri:0, instance:testCases.IndexPageTest@4983159f]" started-at="2024-11-29T16:56:33 IST" name="verifyLogo" finished-at="2024-11-29T16:56:33 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method signature="searchProduct()[pri:0, instance:testCases.IndexPageTest@4983159f]" started-at="2024-11-29T16:56:33 IST" name="searchProduct" finished-at="2024-11-29T16:56:34 IST" depends-on-methods="testCases.IndexPageTest.verifyLogo" duration-ms="986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+      </class> <!-- testCases.IndexPageTest -->
+    </test> <!-- Verify Index Page -->
+    <test started-at="2024-11-29T16:56:34 IST" name="Verify Login Page" finished-at="2024-11-29T16:56:37 IST" duration-ms="2582">
+      <class name="testCases.LoginPageTest">
+        <test-method signature="loginFun()[pri:0, instance:testCases.LoginPageTest@4233e892]" started-at="2024-11-29T16:56:34 IST" name="loginFun" finished-at="2024-11-29T16:56:35 IST" duration-ms="1132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFun -->
+        <test-method signature="loginTest()[pri:0, instance:testCases.LoginPageTest@4233e892]" started-at="2024-11-29T16:56:35 IST" name="loginTest" finished-at="2024-11-29T16:56:37 IST" depends-on-methods="testCases.LoginPageTest.loginFun" duration-ms="1446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- testCases.LoginPageTest -->
+    </test> <!-- Verify Login Page -->
+    <test started-at="2024-11-29T16:56:37 IST" name="Verify MyAccount Page" finished-at="2024-11-29T16:56:37 IST" duration-ms="100">
+      <class name="testCases.MyAccountTest">
+        <test-method is-config="true" signature="beforeScenario()[pri:0, instance:testCases.MyAccountTest@3c9bfddc]" started-at="2024-11-29T16:56:26 IST" name="beforeScenario" finished-at="2024-11-29T16:56:33 IST" duration-ms="6978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeScenario -->
+        <test-method signature="validOrderAndHistoryPage()[pri:0, instance:testCases.MyAccountTest@3c9bfddc]" started-at="2024-11-29T16:56:37 IST" name="validOrderAndHistoryPage" finished-at="2024-11-29T16:56:37 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validOrderAndHistoryPage -->
+        <test-method signature="validAddressPage()[pri:0, instance:testCases.MyAccountTest@3c9bfddc]" started-at="2024-11-29T16:56:37 IST" name="validAddressPage" finished-at="2024-11-29T16:56:37 IST" depends-on-methods="testCases.MyAccountTest.validOrderAndHistoryPage" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validAddressPage -->
+        <test-method signature="validHomePage()[pri:0, instance:testCases.MyAccountTest@3c9bfddc]" started-at="2024-11-29T16:56:37 IST" name="validHomePage" finished-at="2024-11-29T16:56:37 IST" depends-on-methods="testCases.MyAccountTest.validAddressPage" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.MyAccountTest@3c9bfddc]" started-at="2024-11-29T16:56:37 IST" name="tearDown" finished-at="2024-11-29T16:56:37 IST" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.MyAccountTest -->
+    </test> <!-- Verify MyAccount Page -->
+  </suite> <!-- DemoKart Suite -->
+</testng-results>

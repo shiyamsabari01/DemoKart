@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoKart Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Verify Index Page(failed)">
+    <classes>
+      <class name="testCases.IndexPageTest">
+        <methods>
+          <include name="searchProduct"/>
+          <include name="tearDown"/>
+          <include name="verifyLogo"/>
+          <include name="beforeScenario"/>
+        </methods>
+      </class> <!-- testCases.IndexPageTest -->
+    </classes>
+  </test> <!-- Verify Index Page(failed) -->
+</suite> <!-- Failed suite [DemoKart Suite] -->
